@@ -24,7 +24,6 @@ function portfolio_custom_post(){
     register_post_type('Projectspost' , $Projects_args);
 
 
-    
     $Services_label = array(
         'name' => __('Services Post', 'textdomain'),
         'singular_name' => __('Services Post', 'textdomain'),
